@@ -3,17 +3,23 @@ layout: post
 title: "Features Coming in Tableau 10"
 date: 2015-10-28
 tags: [Tableau]
+gallery:
+	- url: https://viziblydiffrnt.github.io/assets/images/custom territories.JPG
+	  image_path: https://viziblydiffrnt.github.io/assets/images/custom territories.JPG
+	  title: "Custom Territories"
+	- url: https://viziblydiffrnt.github.io/assets/images/mapbox.png
+	  image_path: https://viziblydiffrnt.github.io/assets/images/mapbox.png
+	  title: "Mapbox"
 ---
 
-<figure>
-	{% include gallery %}
-</figure>
+{% raw %}{% include gallery %}{% endraw %}
+
 
 I just returned from an amazing week at Tableau’s annual conference in Las Vegas and I’m incredibly excited about the new features shown during the keynote. Presented by the developers themselves, Tableau showed off a slew of game-changing enhancements that will likely make their debut in the next major release, Tableau 10.
 
 Here are a few of the features that will be part of Tableau 10 (if not sooner):
 
-##Tableau Desktop
+## Tableau Desktop
 
 * Total Control – Most notably the ability to prevent Grand Totals from affecting color palettes. Long overdue but very welcome.
 * Data Highlighter – Using the power of search to highlight points of interest.
@@ -26,7 +32,7 @@ Here are a few of the features that will be part of Tableau 10 (if not sooner):
 * Advanced Analytics (Outlier Detection, native K-means Clustering) – Bringing the power of tools like R natively into Tableau will reduce the learning curve for many users that want to run advance statistical analysis on their data. I expect this is just the tip of the iceberg for what will come in the future. Maybe predictive analytics someday?
 * Device Specific Dashboards – A clever new feature. You’ll be able to create different layouts of a single dashboard that render differently depending on the device being used. This is a must have for mobile adoption but I’m wondering if something will be lost in translation.
 
-##Tableau Server
+## Tableau Server
 
 * Version Control – Ever overwrite a published workbook by mistake? With version control you’ll be able to easily restore that old copy with just a couple of clicks.
 * Content Analytics (Sparklines and Bars) – This one caught me by surprise. Tableau has come up with a simple, elegant way of surfacing some high level usage stats on content. Incredibly useful and unobtrusive.
