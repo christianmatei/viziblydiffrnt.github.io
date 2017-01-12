@@ -3,15 +3,6 @@ layout: post
 title: "Features Coming in Tableau 10"
 date: 2015-10-28
 tags: [Tableau]
-gallery:
-	- url: /assets/images/custom territories.JPG
-	  image_path: /assets/images/custom territories.JPG
-	  alt: "placeholder image 1"
-	  title: "Custom Territories"
-	- url: /assets/images/mapbox.png
-	  image_path: /assets/images/mapbox.png
-	  alt: "placeholder image 2"
-	  title: "Mapbox"
 ---
 
 <figure>
