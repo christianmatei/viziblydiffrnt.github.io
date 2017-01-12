@@ -2,7 +2,7 @@
 layout: post
 title: "Features Coming in Tableau 10"
 date: 2015-10-28
-tags: [Tableau, Tableau Desktop, Tableau Server]
+tags: [Tableau]
 gallery:
 	- url: /assets/images/custom territories.JPG
 	  image_path: /assets/images/custom territories.JPG
