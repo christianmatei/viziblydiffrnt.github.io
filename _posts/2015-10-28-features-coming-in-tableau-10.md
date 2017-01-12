@@ -12,7 +12,7 @@ gallery:
     title: "Mapbox"
 ---
 
-{% raw %}{% include gallery %}{% endraw %}
+{% include gallery %}
 
 
 I just returned from an amazing week at Tableau’s annual conference in Las Vegas and I’m incredibly excited about the new features shown during the keynote. Presented by the developers themselves, Tableau showed off a slew of game-changing enhancements that will likely make their debut in the next major release, Tableau 10.
@@ -40,6 +40,7 @@ Here are a few of the features that will be part of Tableau 10 (if not sooner):
 * Tableau Server Manager – A dedicated web app for admins to make server configuration changes.
 * Lock Project Permissions
 * Full-Feature Web Authoring
+
 
 Of all the features shown during the keynote, the ones with the biggest potential to change how we see and understand data with Tableau are going to be the Cross Database Joins and Filtering. Today many of us use parameters to get around the limitations of quick filters on dashboards but with cross database filtering that won’t be as big of a need anymore. I’m most excited about the cross database joins. Connecting to Live DB and Excel in a single datasource?! Goodbye data blending!
 
