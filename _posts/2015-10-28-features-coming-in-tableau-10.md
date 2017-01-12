@@ -4,12 +4,12 @@ title: "Features Coming in Tableau 10"
 date: 2015-10-28
 tags: [Tableau]
 gallery:
-	- url: https://viziblydiffrnt.github.io/assets/images/custom territories.JPG
-	  image_path: https://viziblydiffrnt.github.io/assets/images/custom territories.JPG
-	  title: "Custom Territories"
-	- url: https://viziblydiffrnt.github.io/assets/images/mapbox.png
-	  image_path: https://viziblydiffrnt.github.io/assets/images/mapbox.png
-	  title: "Mapbox"
+  - url: https://viziblydiffrnt.github.io/assets/images/custom territories.JPG
+    image_path: https://viziblydiffrnt.github.io/assets/images/custom territories.JPG
+    title: "Custom Territories"
+  - url: https://viziblydiffrnt.github.io/assets/images/mapbox.png
+    image_path: https://viziblydiffrnt.github.io/assets/images/mapbox.png
+    title: "Mapbox"
 ---
 
 {% raw %}{% include gallery %}{% endraw %}
