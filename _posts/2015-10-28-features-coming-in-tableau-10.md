@@ -14,6 +14,10 @@ gallery:
 	  title: "Mapbox"
 ---
 
+<figure>
+	{% include gallery %}
+</figure>
+
 I just returned from an amazing week at Tableau’s annual conference in Las Vegas and I’m incredibly excited about the new features shown during the keynote. Presented by the developers themselves, Tableau showed off a slew of game-changing enhancements that will likely make their debut in the next major release, Tableau 10.
 
 Here are a few of the features that will be part of Tableau 10 (if not sooner):
