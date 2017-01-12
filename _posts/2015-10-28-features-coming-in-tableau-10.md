@@ -22,16 +22,26 @@ gallery:
   - url: /assets/images/device spec dashboards.JPG
     image_path: /assets/images/device spec dashboards.JPG
     title: "Device Specific Dashboards"
+    
+gallery2:
+  - url: /assets/images/tableau 10 server features.JPG
+    image_path: /assets/images/tableau 10 server features.JPG
+    title: "Tableau Server Features"
+  - url: /assets/images/tableau server manager.JPG
+    image_path: /assets/images/tableau server manager.JPG
+    title: "Tableau Server Manager"
+  - url: /assets/images/content analytics.png
+    image_path: /assets/images/content analytics.png
+    title: "Content Analytics"
 ---
-
-{% include gallery %}
-
 
 I just returned from an amazing week at Tableau’s annual conference in Las Vegas and I’m incredibly excited about the new features shown during the keynote. Presented by the developers themselves, Tableau showed off a slew of game-changing enhancements that will likely make their debut in the next major release, Tableau 10.
 
 Here are a few of the features that will be part of Tableau 10 (if not sooner):
 
 ## Tableau Desktop
+
+{% include gallery %}
 
 * Total Control – Most notably the ability to prevent Grand Totals from affecting color palettes. Long overdue but very welcome.
 * Data Highlighter – Using the power of search to highlight points of interest.
@@ -45,6 +55,8 @@ Here are a few of the features that will be part of Tableau 10 (if not sooner):
 * Device Specific Dashboards – A clever new feature. You’ll be able to create different layouts of a single dashboard that render differently depending on the device being used. This is a must have for mobile adoption but I’m wondering if something will be lost in translation.
 
 ## Tableau Server
+
+{% include gallery id="gallery2" %}
 
 * Version Control – Ever overwrite a published workbook by mistake? With version control you’ll be able to easily restore that old copy with just a couple of clicks.
 * Content Analytics (Sparklines and Bars) – This one caught me by surprise. Tableau has come up with a simple, elegant way of surfacing some high level usage stats on content. Incredibly useful and unobtrusive.
