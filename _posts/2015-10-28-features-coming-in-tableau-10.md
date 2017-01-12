@@ -7,41 +7,41 @@ gallery:
   - url: https://viziblydiffrnt.github.io/assets/images/custom territories.JPG
     image_path: https://viziblydiffrnt.github.io/assets/images/custom territories.JPG
     title: "Custom Territories"
-    caption: "Custom Territories"
+    alt: "Custom Territories"
   - url: https://viziblydiffrnt.github.io/assets/images/mapbox.png
     image_path: https://viziblydiffrnt.github.io/assets/images/mapbox.png
     title: "Mapbox"
-    caption: "Mapbox"
+    alt: "Mapbox"
   - url: https://vizilbydiffrnt.github.io/assets/images/viz_within_viz.png
     image_path: https://viziblydiffrnt.github.io/assets/images/viz_within_viz.png
     title: "Viz Within a Viz"
-    caption: "Viz Within a Viz"
+    alt: "Viz Within a Viz"
   - url: /assets/images/union.JPG
     image_path: /assets/images/union.JPG
     title: "Union Datasources"
-    caption: "Union Datasources"
+    alt: "Union Datasources"
   - url: /assets/images/clustering.png
     image_path: /assets/images/clustering.png
     title: "Clustering"
-    caption: "Clustering"
+    alt: "Clustering"
   - url: /assets/images/device spec dashboards.JPG
     image_path: /assets/images/device spec dashboards.JPG
     title: "Device Specific Dashboards"
-    caption: "Device Specific Dashboards"
+    alt: "Device Specific Dashboards"
     
 gallery2:
   - url: /assets/images/tableau 10 server features.JPG
     image_path: /assets/images/tableau 10 server features.JPG
     title: "Tableau Server Features"
-    caption: "Tableau Server Features"
+    alt: "Tableau Server Features"
   - url: /assets/images/tableau server manager.JPG
     image_path: /assets/images/tableau server manager.JPG
     title: "Tableau Server Manager"
-    caption: "Tableau Server Manager"
+    alt: "Tableau Server Manager"
   - url: /assets/images/content analytics.png
     image_path: /assets/images/content analytics.png
     title: "Content Analytics"
-    caption: "Content Analytics"
+    alt: "Content Analytics"
 ---
 
 I just returned from an amazing week at Tableau’s annual conference in Las Vegas and I’m incredibly excited about the new features shown during the keynote. Presented by the developers themselves, Tableau showed off a slew of game-changing enhancements that will likely make their debut in the next major release, Tableau 10.
