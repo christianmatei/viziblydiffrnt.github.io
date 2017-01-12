@@ -10,6 +10,18 @@ gallery:
   - url: https://viziblydiffrnt.github.io/assets/images/mapbox.png
     image_path: https://viziblydiffrnt.github.io/assets/images/mapbox.png
     title: "Mapbox"
+  - url: https://vizilbydiffrnt.github.io/assets/images/viz_within_viz.png
+    image_path: https://viziblydiffrnt.github.io/assets/images/viz_within_viz.png
+    title: "Viz Within a Viz"
+  - url: /assets/images/union.JPG
+    image_path: /assets/images/union.JPG
+    title: "Union Datasources"
+  - url: /assets/images/clustering.png
+    image_path: /assets/images/clustering.png
+    title: "Clustering"
+  - url: /assets/images/device spec dashboards.JPG
+    image_path: /assets/images/device spec dashboards.JPG
+    title: "Device Specific Dashboards"
 ---
 
 {% include gallery %}
