@@ -4,10 +4,14 @@ title: "Features Coming in Tableau 10"
 date: 2015-10-28
 tags: [Tableau, Tableau Desktop, Tableau Server]
 gallery:
-	- url:
-	  image_path: 
-	  alt: 
-	  title: 
+	- url: /assets/images/custom territories.JPG
+	  image_path: /assets/images/custom territories.JPG
+	  alt: "placeholder image 1"
+	  title: "Custom Territories"
+	- url: /assets/images/mapbox.png
+	  image_path: /assets/images/mapbox.png
+	  alt: "placeholder image 2"
+	  title: "Mapbox"
 ---
 
 I just returned from an amazing week at Tableau’s annual conference in Las Vegas and I’m incredibly excited about the new features shown during the keynote. Presented by the developers themselves, Tableau showed off a slew of game-changing enhancements that will likely make their debut in the next major release, Tableau 10.
