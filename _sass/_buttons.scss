@@ -71,8 +71,7 @@
     background-color: $info-color;
 
     &:hover {
-//       background-color: mix(#000, $info-color, 20%);
-      background-color: $gunmetal;
+      background-color: mix(#000, $info-color, 20%);
     }
   }
 
