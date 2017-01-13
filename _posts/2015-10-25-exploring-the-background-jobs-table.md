@@ -3,6 +3,8 @@ layout: post
 title: "Inside Tableau Server: Exploring the Background Jobs Table"
 date: 2015-10-25
 tags: [Tableau Server]
+header:
+  teaser: /assets/images/01-heatmap.png
 ---
 
 If you’ve ever tapped into the Postgres DB that lies at the heart of Tableau Server, you’ll find that it is a gold-mine of data about how your users interact with and experience your Tableau Server. Statistics on everything from how frequently users access workbooks, when they publish content and how well your server is performing can be gleaned from this data. And what better way to do that than by hooking up Tableau directly to get these insights.
