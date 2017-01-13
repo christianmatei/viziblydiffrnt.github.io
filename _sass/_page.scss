@@ -37,6 +37,7 @@
 .page__title {
   margin-top: 0;
   line-height: 1;
+  font-family: $righteous;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -44,8 +45,7 @@
 }
 
 .page__lead {
-/*   font-family: $global-font-family; */
-  font-family: $righteous;
+  font-family: $global-font-family;
   font-size: $type-size-4;
 }
 
