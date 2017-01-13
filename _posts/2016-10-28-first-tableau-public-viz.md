@@ -3,7 +3,6 @@ layout: single
 title: "My First Tableau Public Viz!"
 date: 2016-10-28
 tags: [Visualizations]
-author_profile: false
 header:
   teaser: /assets/images/nyy-seasons.png
 ---
