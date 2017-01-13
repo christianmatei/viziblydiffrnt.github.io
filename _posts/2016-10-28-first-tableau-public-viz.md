@@ -2,7 +2,7 @@
 layout: splash
 title: "My First Tableau Public Viz!"
 date: 2016-10-28
-tags: [Visualizations]
+tags: [Visualizations, Tableau]
 header:
   teaser: /assets/images/nyy-seasons.png
 ---

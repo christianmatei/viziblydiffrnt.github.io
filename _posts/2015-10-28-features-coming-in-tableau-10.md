@@ -2,7 +2,7 @@
 layout: post
 title: "Features Coming in Tableau 10"
 date: 2015-10-28
-tags: [Tableau]
+tags: [Tableau, Tableau Server]
 header:
   teaser: /assets/images/keynote_dev_002_3.jpg
 gallery:
