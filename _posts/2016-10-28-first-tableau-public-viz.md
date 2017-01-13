@@ -3,6 +3,8 @@ layout: splash
 title: "My First Tableau Public Viz!"
 date: 2016-10-28
 tags: [Visualizations]
+header:
+  teaser: /assets/images/nyy-seasons.png
 ---
 
 October is a great time of year. It’s full of age-old traditions like the changing of the color of leaves, the return of the Pumpkin Spice Latte (not a personal favorite but I bet a few of you know what I mean) and who can forget about Halloween. The one I look forward to every year is the Major League Baseball playoffs and it’s culmination in the World Series. Every season brings unforgettable memories and this year’s playoffs have been exciting as ever. Who knows, maybe this is the year the Cubs can finally win it all!
