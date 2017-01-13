@@ -3,7 +3,8 @@
 ////////////////////////
 
 // overlay
-$mfp-overlay-color:                   #000;                     // Color of overlay screen
+/* $mfp-overlay-color:                   #000;                     // Color of overlay screen */
+$mfp-overlay-color:                   $gunmetal;
 $mfp-overlay-opacity:                 0.8;                        // Opacity of overlay screen
 $mfp-shadow:                          0 0 8px rgba(0, 0, 0, 0.6); // Shadow on image or iframe
 
