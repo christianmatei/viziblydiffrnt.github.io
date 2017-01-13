@@ -3,6 +3,8 @@ layout: post
 title: "Features Coming in Tableau 10"
 date: 2015-10-28
 tags: [Tableau]
+header:
+  teaser: /assets/images/keynote_dev_002_3.jpg
 gallery:
   - url: https://viziblydiffrnt.github.io/assets/images/custom territories.JPG
     image_path: https://viziblydiffrnt.github.io/assets/images/custom territories.JPG
