@@ -20,7 +20,7 @@
           animation-delay: 0.30s;
 
   @include breakpoint($large) {
-    padding-left: 1em;
+    padding-left: 0;
     padding-right: 1em;
   }
 
