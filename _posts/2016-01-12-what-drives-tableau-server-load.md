@@ -38,9 +38,8 @@ The Backgrounder process is responsible for a large number of tasks but the most
 <img src="https://viziblydiffrnt.github.io/assets/images/tab serv maintenance-page.png"/>
 </p>
 
-<center>
-*In this configuration, there are 2 nodes in the server cluster and one of them is dedicated to Backgrounder processing with a total of 24 Backgrounder processes. This allows the server to execute 24 simultaneous Background Tasks.* 
-</center>
+
+*In this configuration, there are 2 nodes in the server cluster and one of them is dedicated to Backgrounder processing with a total of 24 Backgrounder processes. This allows the server to execute 24 simultaneous Background Tasks.*{: style="text-align:center;"}
 
 It's important to note that single-threaded does not mean that multiple processes can't run in parallel. What it refers to is that a CPU core cannot be logically split to share the workload, a process known as *__hyper-threading__*. Tableau Server does not currently support hyper-threading because each Backgrounder process has the ability to consume 100% of the CPU resources for a given core. Instead, multiple Backgrounder processes are used and the server runs one task per process, on separate cores.
 
@@ -61,7 +60,8 @@ Now that we understand what drives load, we need to measure it to understand whe
 <p align="center">
 <img src="https://viziblydiffrnt.github.io/assets/images/monitoring tab server.png"/>
 </p>
-<center>*CPU, Memory, and Disk utilization at 1 hour increments*</center>
+
+*CPU, Memory, and Disk utilization at 1 hour increments*
 
 
 Depending on what you learn from the results, you might just need to add a couple of additional processes but if you're really at capacity an architecture change could also be in the cards. Understanding [how Tableau Server performs at scale](http://www.tableau.com/learn/whitepapers/tableau-server-90-scalability-powering-self-service-analytics-scale) is critical to providing your users with the best experience possible. Whatever insights you uncover, it's best to review them in the context of what your users are doing. Talk to them and find out where they are experiencing issues when using Tableau Server and see if the data corroborates their stories. Develop a plan to address those topics and remember to capture the evidence from your server so you can see if the changes made a difference.
