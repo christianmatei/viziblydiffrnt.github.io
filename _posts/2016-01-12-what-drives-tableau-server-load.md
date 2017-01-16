@@ -61,7 +61,7 @@ Now that we understand what drives load, we need to measure it to understand whe
 <img src="https://viziblydiffrnt.github.io/assets/images/monitoring tab server.png"/>
 </p>
 
-*CPU, Memory, and Disk utilization at 1 hour increments*
+*CPU, Memory, and Disk utilization at 1 hour increments*{: style="text-align:center;"}
 
 
 Depending on what you learn from the results, you might just need to add a couple of additional processes but if you're really at capacity an architecture change could also be in the cards. Understanding [how Tableau Server performs at scale](http://www.tableau.com/learn/whitepapers/tableau-server-90-scalability-powering-self-service-analytics-scale) is critical to providing your users with the best experience possible. Whatever insights you uncover, it's best to review them in the context of what your users are doing. Talk to them and find out where they are experiencing issues when using Tableau Server and see if the data corroborates their stories. Develop a plan to address those topics and remember to capture the evidence from your server so you can see if the changes made a difference.
