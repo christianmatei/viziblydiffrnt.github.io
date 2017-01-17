@@ -85,7 +85,7 @@
       text-align: center;
       text-decoration: none;
       color: mix(#fff, $gray, 25%);
-      background: $gunmetal;
+//       background: $gunmetal;
       border: 1px solid $light-gray;
       border-radius: 0;
 
@@ -95,7 +95,8 @@
       }
 
       &.current {
-        color: #fff;
+//         color: #fff;
+        color: $gunmetal;
         background: $primary-color;
 //         background: $light-gray;
       }
