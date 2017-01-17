@@ -79,8 +79,6 @@ figure.highlight {
 
 $syntax-color-variable:   $hue-5;
 $syntax-color-constant:   $hue-6;
-// $syntax-color-property:   @syntax-fg;
-// $syntax-color-value:      @syntax-fg;
 $syntax-color-function:   $hue-2;
 $syntax-color-method:     $hue-2;
 $syntax-color-class:      $hue-6-2;
@@ -150,7 +148,7 @@ $syntax-color-snippet:    $hue-4;
 .highlight .sh { color: #93a1a1 } /* Literal.String.Heredoc */
 .highlight .si { color: #2aa198 } /* Literal.String.Interpol */
 .highlight .sx { color: #2aa198 } /* Literal.String.Other */
-.highlight .sr { color: #dc322f } /* Literal.String.Regex */
+.highlight .sr { color: $hue-1 } /* Literal.String.Regex */
 .highlight .s1 { color: #2aa198 } /* Literal.String.Single */
 .highlight .ss { color: #2aa198 } /* Literal.String.Symbol */
 .highlight .bp { color: #22b3eb } /* Name.Builtin.Pseudo */
