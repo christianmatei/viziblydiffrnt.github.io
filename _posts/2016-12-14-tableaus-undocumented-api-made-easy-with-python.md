@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tableau's "Undocumented" API Made Easy with Python"
+title: "The Tableau Undocumented API Made Easy with Python"
 date: 2016-12-14
 tags: [Tableau Server, APIs]
 header:
