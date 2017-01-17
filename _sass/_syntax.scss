@@ -128,8 +128,8 @@ $syntax-color-snippet:    $hue-4;
 .highlight .ni { color: $hue-6 } /* Name.Entity */
 .highlight .ne { color: $hue-6 } /* Name.Exception */
 .highlight .nf { color: $syntax-color-function } /* Name.Function */
-.highlight .nl { color: $hue-6 } /* Name.Label */
-.highlight .nn { color: #93a1a1 } /* Name.Namespace */
+.highlight .nl { color: #93a1a1 } /* Name.Label */
+.highlight .nn { color: $hue-6 } /* Name.Namespace */
 .highlight .nx { color: #93a1a1 } /* Name.Other */
 .highlight .py { color: #93a1a1 } /* Name.Property */
 .highlight .nt { color: #22b3eb } /* Name.Tag */
