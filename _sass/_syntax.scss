@@ -107,7 +107,7 @@ $syntax-color-snippet:    $hue-4;
 .highlight .gh { color: $hue-6 } /* Generic.Heading */
 .highlight .gi { color: $hue-3 } /* Generic.Inserted */
 .highlight .go { color: #93a1a1 } /* Generic.Output */
-.highlight .gp { color: #93a1a1 } /* Generic.Prompt */
+.highlight .gp { color: $hue-6 } /* Generic.Prompt */
 .highlight .gs { color: #93a1a1; font-weight: bold } /* Generic.Strong */
 .highlight .gu { color: $hue-6 } /* Generic.Subheading */
 .highlight .gt { color: #93a1a1 } /* Generic.Traceback */
@@ -129,7 +129,7 @@ $syntax-color-snippet:    $hue-4;
 .highlight .ne { color: $hue-6 } /* Name.Exception */
 .highlight .nf { color: $syntax-color-function } /* Name.Function */
 .highlight .nl { color: #93a1a1 } /* Name.Label */
-.highlight .nn { color: $hue-6 } /* Name.Namespace */
+.highlight .nn { color: #93a1a1 } /* Name.Namespace */
 .highlight .nx { color: #93a1a1 } /* Name.Other */
 .highlight .py { color: #93a1a1 } /* Name.Property */
 .highlight .nt { color: #22b3eb } /* Name.Tag */
