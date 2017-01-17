@@ -67,7 +67,7 @@ figure.highlight {
 
    SOLARIZED HEX      ROLE
    --------- -------- ------------------------------------------
-   base01    #586e75  body text / default code / primary content
+   base01    #586e75  body text / d$hue-6efault code / primary content
    base1     #93a1a1  comments / secondary content
    base3     #fdf6e3  background
    orange    #cb4b16  constants
@@ -128,7 +128,7 @@ $syntax-color-snippet:    $hue-4;
 .highlight .ni { color: $hue-6 } /* Name.Entity */
 .highlight .ne { color: $hue-6 } /* Name.Exception */
 .highlight .nf { color: $syntax-color-function } /* Name.Function */
-.highlight .nl { color: #93a1a1 } /* Name.Label */
+.highlight .nl { color: $hue-6 } /* Name.Label */
 .highlight .nn { color: #93a1a1 } /* Name.Namespace */
 .highlight .nx { color: #93a1a1 } /* Name.Other */
 .highlight .py { color: #93a1a1 } /* Name.Property */
