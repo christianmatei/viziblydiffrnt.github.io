@@ -20,7 +20,7 @@ The decision to go with a Single Node installation or a Distributed (clustered) 
 * Total User Count (the maximum number of licensed users)
 * Concurrent Users (between 5 and 10% of your total user count should be a good enough estimate)
 * Your License Strategy
-* # of Extracts vs. Live Data Connections
+* The Number of Extracts vs. Live Data Connections
 * The amount of load you plan to drive ([What Drives Tableau Server Load?](https://viziblydiffrnt.wordpress.com/2016/01/12/what-drives-tableau-server-load/))
 * Availability expectations for your Tableau environment
 
@@ -46,7 +46,7 @@ Scaling up means adding additional capacity within your current hardware. This c
 
 Scaling out refers to adding additional capacity by increasing the total number of machines available to your Tableau Server configuration. Tableau Server supports a distributed or clustered configuration by letting you add additional machines to spread the load across them and thus increasing the overall capacity of your environment. As you can imagine, this can lead to some pretty complex configurations but for simplicity sake I'll touch on just a couple of reasons why you might want to consider scaling out as an option:
 
-#### Additional Capacity
+### Additional Capacity
 
 The most common reason I see for scaling out is to add additional capacity to Tableau Server. If you've maxed out your single node and performance is still not where you want it to be, adding a 2nd or 3rd node can provide the additional horsepower you need. Tableau Server does this through the power of Worker nodes. Worker nodes act in concert with the Primary node and can share the load of your Tableau environment.
 
@@ -64,7 +64,7 @@ Allocating more process threads to refreshing extracts, sending subscriptions, o
 <p align="center"><i>Example of a distributed system with a dedicated "Backgrounder" machine running 10 Background Processes</i>
 </p>
 
-#### High Availability (HA)
+### High Availability (HA)
 
 High Availability is another major reason why I see organizations decide to scale out their servers. Tableau's [documentation](https://onlinehelp.tableau.com/current/server/en-us/distrib_ha_intro.htm) does a great job of explaining what High Availability is so I won't go into depth here but if you want to ensure that your Tableau Server is up even if one of your nodes goes down, you're going to need a distributed architecture.
 
