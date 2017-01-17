@@ -21,7 +21,7 @@ The decision to go with a Single Node installation or a Distributed (clustered) 
 * Concurrent Users (between 5 and 10% of your total user count should be a good enough estimate)
 * Your License Strategy
 * # of Extracts vs. Live Data Connections
-* The amount of load you plan to drive (What Drives Tableau Server Load?)
+* The amount of load you plan to drive ([What Drives Tableau Server Load?](https://viziblydiffrnt.wordpress.com/2016/01/12/what-drives-tableau-server-load/))
 * Availability expectations for your Tableau environment
 
 So how many users do you have? Are you testing Tableau out with a select number of people in your organization or is your charter to grant access to everyone for ultimate transparency? In either case, there is a licensing strategy for all deployments and choosing the best one will also influence how you set up your configuration.
@@ -52,7 +52,7 @@ The most common reason I see for scaling out is to add additional capacity to Ta
 
 There are several clustered configurations that you can adopt and the one you choose mostly depends on how your users interact with content on the server. If your server has a lot of extract refreshes being performed daily, consider using a dedicated worker node for background processing.
 
-Tableau's Backgrounder process is a primary driver of load on Tableau Server (see Paul Banoub's excellent post on All About the Backgrounder for more detail) and offloading it to a separate machine can yield benefits including:
+Tableau's Backgrounder process is a primary driver of load on Tableau Server (see Paul Banoub's excellent post on [All About the Backgrounder](https://vizninja.com/2016/05/05/tableau-server-all-about-the-backgrounder/) for more detail) and offloading it to a separate machine can yield benefits including:
 
 Reduced strain on the VizQL process (which is responsible for rendering all those beautiful visualizations your team has built).
 Allocating more process threads to refreshing extracts, sending subscriptions, or executing commands via tabcmd. More process threads = more simultaneous jobs = less delay for content updates.
@@ -66,7 +66,7 @@ Allocating more process threads to refreshing extracts, sending subscriptions, o
 
 #### High Availability (HA)
 
-High Availability is another major reason why I see organizations decide to scale out their servers. Tableau's documentation does a great job of explaining what High Availability is so I won't go into depth here but if you want to ensure that your Tableau Server is up even if one of your nodes goes down, you're going to need a distributed architecture.
+High Availability is another major reason why I see organizations decide to scale out their servers. Tableau's [documentation](https://onlinehelp.tableau.com/current/server/en-us/distrib_ha_intro.htm) does a great job of explaining what High Availability is so I won't go into depth here but if you want to ensure that your Tableau Server is up even if one of your nodes goes down, you're going to need a distributed architecture.
 
 The best reason to scale out is if you want to build a high-performance, highly-available Tableau Server. These types of environments aren't cheap but if you're supporting thousands of users running thousands of extract refreshes around the clock it'll give you the confidence to know that you can serve their needs.
 
@@ -86,12 +86,12 @@ The decision on whether to use physical hardware or go with virtual machines is 
 
 * Tableau's minimum hardware requirements assume you are using bare metal physical servers, not virtual machines. The same is true for their scalability estimates.
 * Because Tableau Server is a resource-intensive and latency-sensitive application, it requires dedicated resources. Pooling or sharing of CPU and RAM across other VMs on a host machine will lead to lots of issues with your configuration. Avoid pooling and sharing at all costs.
-* Make sure you get 100% dedicated CPU allocation. Tableau's minimum requirement for a Production environment is 8 physical cores. Tableau ignores hyperthreading so make sure when you ask for 8 cores you're really getting the full amount.
+* Make sure you get 100% dedicated CPU allocation. Tableau's minimum requirement for a Production environment is 8 **physical** cores. Tableau ignores hyperthreading so make sure when you ask for 8 cores you're really getting the full amount.
 * 100% dedication of RAM is important too. It cannot be dynamic RAM either. It should be contiguous on the host server and the minimum for a Production environment is 32GB. So if you're running an HA setup with 3 machines you'll need at least 96GB of dedicated RAM from a single VM host.
 * The high-latency of Tableau Server also requires fast disk access. Don't settle for network attached storage (NAS). Insist that you're given a tiered SAN to get the highest level of write speed.
 * If you're running a distributed environment, you'll want the latency between your workers to be less than 10ms. A poorly tuned VM setup will lead to poor server performance and you'll feel like you wasted a lot of money on those extra cores you purchased.
 * Do not use VM snapshots for backing up Tableau Server. The only supported method for backing up Tableau is to use the 'tabadmin backup' command.
-* If your system admin is insisting on giving you a setup that has VMotion enabled, don't use VMs. VMotion is a technology that allows VMs to move from one physical host to another for managing performance and it is not compatible with Tableau's licensing technology. More about why this happens can be found here: VM server vs. Physical server.
+* If your system admin is insisting on giving you a setup that has VMotion enabled, don't use VMs. VMotion is a technology that allows VMs to move from one physical host to another for managing performance and it is not compatible with Tableau's licensing technology. More about why this happens can be found here: [VM server vs. Physical server](https://community.tableau.com/thread/163419?start=15&tstart=0).
 * Keep in mind that the above applies to all machines running Tableau Server. If you're using a clustered setup, make sure you get the same guarantees for the Worker nodes and the Primary.
 
 ## Putting it All Together
