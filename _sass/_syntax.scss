@@ -129,11 +129,11 @@ $syntax-color-snippet:    $hue-4;
 .highlight .ne { color: $hue-6 } /* Name.Exception */
 .highlight .nf { color: $syntax-color-function } /* Name.Function */
 .highlight .nl { color: #93a1a1 } /* Name.Label */
-.highlight .nn { color: $hue-6 } /* Name.Namespace */
+.highlight .nn { color: #93a1a1 } /* Name.Namespace */
 .highlight .nx { color: #93a1a1 } /* Name.Other */
 .highlight .py { color: $hue-6 } /* Name.Property */
 .highlight .nt { color: #22b3eb } /* Name.Tag */
-.highlight .nv { color: #22b3eb } /* Name.Variable */
+.highlight .nv { color: $hue-6 } /* Name.Variable */
 .highlight .ow { color: $hue-3 } /* Operator.Word */
 .highlight .w { color: #93a1a1 } /* Text.Whitespace */
 .highlight .mf { color: $syntax-color-constant } /* Literal.Number.Float */
