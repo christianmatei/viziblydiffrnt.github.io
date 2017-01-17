@@ -11,13 +11,13 @@ header:
 <img src="https://viziblydiffrnt.github.io/assets/images/undocumented_teaser.jpg">
 </p>
 
-After returning from this year's Tableau Conference and all the great sessions on Tableau's APIs, I couldn't wait to dive into the content the devs made available. I have been collecting ideas for automated Tableau Server tools for a while now and TC16 ignited the passion in me to put some of them into action.
+After returning from this year's Tableau Conference and all the great sessions on Tableau's APIs, I couldn't wait to dive into the [content](https://github.com/tableau/rest-api-samples/tree/master/python) the devs made available. I have been collecting ideas for automated Tableau Server tools for a while now and TC16 ignited the passion in me to put some of them into action.
 
 I started by exploring the REST API with Python and quickly realized that there was a gap between what I wanted to build and the functionality that the API offered. While many Server actions can be scripted, simple things like modifying the schedule attached to an Extract refresh isn't possible. Why Tableau? You'll let me change the schedule for a Subscription, so why not an Extract?
 
 The answer is probably that the devs are super busy and they just haven't gotten around to it. Hopefully this and other Extract functionality (like triggering Extract refreshes) is just a release or two away.
 
-But what should I do in the mean time? I can't just give up. This is a core element of my app. After a quick post to the Global Tableau Developers Group, I found a tiny light at the end of the tunnel in the form of Tableau's "Undocumented" API.
+But what should I do in the mean time? I can't just give up. This is a core element of my app. After a quick post to the [Global Tableau Developers Group](https://twitter.com/CodexLigat), I found a tiny light at the end of the tunnel in the form of Tableau's "Undocumented" API.
 
 ## What is the "Undocumented API"?
 
@@ -39,7 +39,7 @@ This is why the Vizportal API is known as the Undocumented API. While it's techn
 
 ## How To Connect to the Vizportal API using Python
 
-Even though it's not supported or officially documented, there is some material online that discusses how you can connect to Vizportal. The team at Tableau that runs their internal server has a post that describes one method but it stops just short of providing the code. I'll present a method using Python (version 2.7) but this could be done with Javascript or any other language the supports HTTP requests and RSA encryption. To log into the Vizportal API we'll need to perform the following steps:
+Even though it's not supported or officially documented, there is some material online that discusses how you can connect to Vizportal. The team at Tableau that runs their internal server has a [post](http://www.tableau.com/about/blog/2016/3/myalpo-how-we-built-search-functionality-52473) that describes one method but it stops just short of providing the code. I'll present a method using Python (version 2.7) but this could be done with Javascript or any other language the supports HTTP requests and RSA encryption. To log into the Vizportal API we'll need to perform the following steps:
 
 1. Generate a Public Key that we can use to encrypt our password that will be used for the login
 2. Encrypt the user's password with RSA PKCS1 encryption
@@ -195,4 +195,4 @@ Success!
 
 The current version of the REST API lacks some basic functionality that would be really useful to have. If you have a Server that doesn't have a dedicated Administrator it can be hard to maintain the content and schedules as it grows. Automating these tasks can give your Tableau Server extra life and improve the experience for your users. I fully expect that more functionality will be added with each release and it's only a matter of time before the REST API becomes fully featured. In the mean time, experiment with Vizportal and see what you can come up with.
 
-Big thanks to Chris Toomey and Tamás Földi for all of their help in figuring this out.
+Big thanks to [Chris Toomey](https://twitter.com/Sock1tToomey) and [Tamás Földi](https://twitter.com/tfoldi) for all of their help in figuring this out.
