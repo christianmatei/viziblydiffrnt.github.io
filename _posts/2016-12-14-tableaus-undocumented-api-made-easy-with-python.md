@@ -5,6 +5,7 @@ date: 2016-12-14
 tags: [Tableau Server, APIs]
 header:
   teaser: /assets/images/undocumented_teaser.jpg
+  	- url: https://viziblydiffrnt.github.io/blog/2016/12/14/tableaus-undocumented-api-made-easy-with-python
 ---
 
 <p align="center">
