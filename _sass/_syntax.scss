@@ -90,9 +90,9 @@ $syntax-color-attribute:  $hue-6;
 $syntax-color-import:     $hue-3;
 $syntax-color-snippet:    $hue-4;
 
-.highlight .c { color: #93a1a1 } /* Comment */
+.highlight .c { color: #586e75 } /* Comment */
 .highlight .err { color: #586e75 } /* Error */
-.highlight .g { color: #586e75 } /* Generic */
+.highlight .g { color: #93a1a1 } /* Generic */
 .highlight .k { color: $syntax-color-keyword } /* Keyword */
 .highlight .l { color: #586e75 } /* Literal */
 .highlight .n { color: #586e75 } /* Name */
