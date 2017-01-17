@@ -85,12 +85,13 @@
       text-align: center;
       text-decoration: none;
       color: mix(#fff, $gray, 25%);
+      background: $gunmetal;
       border: 1px solid $light-gray;
       border-radius: 0;
 
       &:hover {
-//         color: $link-color-hover;
-        color: #233237;
+        color: $link-color-hover;
+//         color: #233237;
       }
 
       &.current {
