@@ -95,10 +95,10 @@
       }
 
       &.current {
-//         color: #fff;
-        color: $gunmetal;
-        background: $primary-color;
-//         background: $light-gray;
+        color: #fff;
+//         color: $gunmetal;
+//         background: $primary-color;
+        background: $gunmetal;
       }
 
       &.disabled {
