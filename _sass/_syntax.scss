@@ -93,7 +93,7 @@ $syntax-color-snippet:    $hue-4;
 .highlight .g { color: #93a1a1 } /* Generic */
 .highlight .k { color: $syntax-color-keyword } /* Keyword */
 .highlight .l { color: #93a1a1 } /* Literal */
-.highlight .n { color: #93a1a1 } /* Name */
+.highlight .n { color: $hue-6 } /* Name */
 .highlight .o { color: #93a1a1 } /* Operator */
 .highlight .x { color: $hue-6 } /* Other */
 .highlight .p { color: #586e75 } /* Punctuation */
