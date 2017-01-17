@@ -96,7 +96,7 @@ $syntax-color-snippet:    $hue-4;
 .highlight .k { color: $syntax-color-keyword } /* Keyword */
 .highlight .l { color: #586e75 } /* Literal */
 .highlight .n { color: #586e75 } /* Name */
-.highlight .o { color: #859900 } /* Operator */
+.highlight .o { color: #586e75 } /* Operator */
 .highlight .x { color: #cb4b16 } /* Other */
 .highlight .p { color: #586e75 } /* Punctuation */
 .highlight .cm { color: #93a1a1 } /* Comment.Multiline */
@@ -122,7 +122,7 @@ $syntax-color-snippet:    $hue-4;
 .highlight .ld { color: #586e75 } /* Literal.Date */
 .highlight .m { color: #2aa198 } /* Literal.Number */
 .highlight .s { color: $syntax-color-snippet } /* Literal.String */
-.highlight .na { color: #586e75 } /* Name.Attribute */
+.highlight .na { color: $syntax-color-attribute } /* Name.Attribute */
 .highlight .nb { color: #B58900 } /* Name.Builtin */
 .highlight .nc { color: #22b3eb } /* Name.Class */
 .highlight .no { color: $syntax-color-constant } /* Name.Constant */
