@@ -35,7 +35,7 @@ What happens if you have a workbook in 2 different projects with the same name? 
 
 I knew the answer had to be within the background_jobs table, so I went digging. Low and behold, I found my answer within the “args” field. For a Workbook’s Extract Refresh job, the “args” value looks something like this:
 
-```
+```sql
 -- Workbook
 -- 87994
 -- (string masked for confidentiality)
@@ -49,7 +49,7 @@ Could one of these values turn out to be the workbook_id or datasource_id I was 
 
 Using the following statement, I was able to parse the “args” string into an object_id:
  
-``` 
+```sql 
 cast(split_part(
 (regexp_replace(args,'---','')),'- ',3
 ) as integer) as object_id
