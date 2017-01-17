@@ -121,7 +121,7 @@ $syntax-color-snippet:    $hue-4;
 .highlight .m { color: #2aa198 } /* Literal.Number */
 .highlight .s { color: $syntax-color-snippet } /* Literal.String */
 .highlight .na { color: $syntax-color-attribute } /* Name.Attribute */
-.highlight .nb { color: #B58900 } /* Name.Builtin */
+.highlight .nb { color: $hue-1 } /* Name.Builtin */
 .highlight .nc { color: #22b3eb } /* Name.Class */
 .highlight .no { color: $syntax-color-constant } /* Name.Constant */
 .highlight .nd { color: #22b3eb } /* Name.Decorator */
