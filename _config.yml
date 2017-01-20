@@ -67,7 +67,7 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : Mark Jacobson
   name                   : # If the user or organization name differs from the site's name
-  links: 
+  links:
     - "https://twitter.com/viziblydiffrnt"
     - "https://linkedin.com/in/markajacobson"
 
@@ -115,7 +115,7 @@ author:
 # Reading Files
 include:
   - .htaccess
-  - ["_pages"]
+  - ['_pages']
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
