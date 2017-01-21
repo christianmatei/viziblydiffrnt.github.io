@@ -32,12 +32,8 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
-<!--         {{ content }} -->
+        {{ content }}
 
-
-        <iframe src="{ % include {{page.my_variable}} % }" frameborder='no' border="0" marginwidth="0" marginheight="0" height="1582" width="1317">
-<!--         {% include vizportal.html %} -->
-        </iframe>
 
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
