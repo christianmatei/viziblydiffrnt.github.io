@@ -4,7 +4,7 @@ title: "Taking Tableau Further: Create Your own Content Management Tool, Part 1"
 date: 2017-06-13
 tags: [Tableau Server, APIs, Content Management]
 header:
-  teaser: /assets/images/content_lifecycle.png
+  teaser: /assets/images/content_lifecycle.jpg
 ---
 
 <p align="center">
