@@ -28,7 +28,7 @@ Your organization may have a retention policy or guidelines for scheduling conte
 Using Tableau's APIs (official and unofficial) we can create our own Content Management Tool that will allow us to meet our requirements, however unique they might be.
 
 
-### Determining Your Feature Set
+## Determining Your Feature Set
 
 Before we start coding it's really important to know what features you want your Content Management tool to handle. This helps you focus on an outcome and avoid chasing after things that might only have marginal value. Through my client work I've seen a variety of content management challenges so I chose to focus here on ones that are applicable to a wide range of Tableau environments. For my solution, I chose the following:
 
@@ -46,7 +46,7 @@ Before we start coding it's really important to know what features you want your
 
 5) Log all actions and produce a summary of each action taken for review, **aka Demo Mode**.
 
-### Putting Ideas into Action
+## Putting Ideas into Action
 
 Now that we know what features to build out, we need to figure out how to get the information we need. For this feature set we'll need:
 
