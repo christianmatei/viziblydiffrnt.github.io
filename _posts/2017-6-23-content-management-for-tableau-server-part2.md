@@ -266,7 +266,7 @@ At this point you're probably asking yourself:
 
 > "Why did I just write all of these functions and really long, complex queries?"
 
-> "What on Earth am I supposed to do with all of this?"
+> ["What on Earth am I supposed to do with all of this?"](http://go.slalom.com/wehavefunwithdata)
 
 The simple answer is that we now have the ***building blocks*** for the rest of the API calls that we want to make. Let's do a recap of what we know:
 
